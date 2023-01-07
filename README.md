@@ -1,65 +1,23 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# SenNeShop
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A website a website selling clothes brand SenNeShop
 
-## About Laravel
+## Problem
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Website selling clothes.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Display products by category, trending products (by quantity purchased) and special products that we would like to introduce to our customers.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The website has a shopping cart system, order management and customer information, membership card.
 
-## Learning Laravel
+### Usercase
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+```
+http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<iframe frameborder="0" style="width:100%;height:454px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=#R1ZrNcpswEICfxsfOAAL%2FHFOStId02qmn7VlBa9BUIEbIwe7TV9gCG4u08dRI9GRYVojd%2FbSsFs9QnO8%2BCFxmnzgBNgs8spuh%2B1kQ%2BH60VD%2BNZK8lcz84SlJBiZadBGv6C7TQ09ItJVD1FCXnTNKyL0x4UUAiezIsBK%2F7ahvO%2BrOWOAVDsE4wM6U%2FKJHZUbqMvJP8I9A0a2f2PX0lx62yFlQZJrw%2BE6GHGYoF5%2FJ4lO9iYI33Wr8cxz2%2BcrV7MAGFfNMAHYpK7lvjgChb9WnBC%2FXzPpM5U2e%2BOiS4yoDok%2BPYZsCr02tRxbci0Vo61hKLFLTWvDNdQQM8Byn2SkUAw5K%2B9O%2BOdfDSTu9knzrQJg6bq6d%2BwWyrb%2FoVUlpJEKYbGFM4NdbXGZWwLvHh%2BWuFdN8j%2BpYgJOz%2B7AbTQD0gCDUOekG86%2Fioz%2FDSouyMrHbcv%2FgEGT6Jt5XkIh9wisK1bA63ObtLlI4yvzGcqqXxhJ%2BBfeEVlZQXSuWZS8nzM4U7RtPmguQXDuRbyWgBcbdYvdt4dRFceHVuOhUNOHV%2BA6eG8yvXFRTkrslMp4tK8kibCc78ce1Si8ylhiwttcjAqsYHBSz4tiBNGOBZ0QJOV154ufIGGPHDkSDxV%2FaT79wkIrJExNwg4lvV5BgPJ4ec4ZID5F1w0AX9Lxk4ugUHoX0OFu5ewguDgyeeUsfxd%2FkGbqtfm%2FFfuov%2F0swDJcHNi8CjxYarGvmQDeKDEVVVc0Gm9Y4YYsMPxoID2Yej3We5oKOdu58eVI04LQZ8i%2FmhC5HNTZpDBAITgXXGy5IWqZImWMhpFA1dwPf9%2BNtIC8G1G4xbMDGwcz%2FrWowMhbl3vyPTejEgiylh4SD8yGX4zTbFdwr1pOI%2FsP5Hi7%2BLvl3oMv6hEf%2FPgkx1%2B%2BgPtBHGQiG8NhWM02oKViYdyFrFsDLoWEu82Rie%2Ba8amBflhR%2BZUI3Vv0QOSk7ksOREZsl5D0zNcJgOEyKgqmbNB5wCp46%2FFph7kYXFwhM5aFahocIztIWGWXjGAtp%2BxQunybRa2G%2FtXN4EhsgBDENlqDUYzDL0C97nzfNOioGVRQYcbEXQwGcMewyYHzLiDJKfSsSPJalDErrIj1%2BJqtPTHxUO187%2B74EefgM%3D"></iframe>
 
 ## License
 
